@@ -1,13 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, StatusBar } from 'react-native';
 import Home from './screens/Home';
+import DestinationSearch from './screens/DestinationSearch';
 
 export default function App() {
   return (
     <>
       <StatusBar style="auto" />
       <SafeAreaView>
-        <Home />
+        {/* <Home /> */}
+        <DestinationSearch />
       </SafeAreaView>
     </>
   );
